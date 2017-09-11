@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/bg"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/goOn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:text="继续"
+            />
+        <Button
+            android:id="@+id/newGame"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="新游戏"
+            />
+        <Button
+            android:id="@+id/about"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="关于"
+            />
+
+</LinearLayout>
